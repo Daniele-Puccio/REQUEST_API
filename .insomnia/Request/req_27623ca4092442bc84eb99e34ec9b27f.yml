@@ -1,0 +1,28 @@
+_id: req_27623ca4092442bc84eb99e34ec9b27f
+type: Request
+parentId: wrk_a62b04e0f7f44938ae7b2c5174084f3c
+modified: 1667050591793
+created: 1667050437443
+url: http://localhost:5000/store
+name: POST store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Post Store"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667050437443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

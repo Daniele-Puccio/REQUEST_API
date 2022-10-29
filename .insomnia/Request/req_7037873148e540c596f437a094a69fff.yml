@@ -1,0 +1,29 @@
+_id: req_7037873148e540c596f437a094a69fff
+type: Request
+parentId: wrk_a62b04e0f7f44938ae7b2c5174084f3c
+modified: 1667050655555
+created: 1667050485491
+url: http://localhost:5000/store/Post Store/item
+name: POST store/item
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "laptop",
+    	"price": 1199.99
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667050485491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
