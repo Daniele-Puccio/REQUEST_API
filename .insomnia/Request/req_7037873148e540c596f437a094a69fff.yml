@@ -1,18 +1,19 @@
 _id: req_7037873148e540c596f437a094a69fff
 type: Request
 parentId: wrk_a62b04e0f7f44938ae7b2c5174084f3c
-modified: 1667050655555
+modified: 1667073612516
 created: 1667050485491
-url: http://localhost:5000/store/Post Store/item
-name: POST store/item
+url: http://localhost:5000/item
+name: POST item
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "laptop",
-    	"price": 1199.99
+    	"store_id" : "de2d9a3a9d99499fbf68ef6c84fed4e2",
+    	"name": "Table",
+    	"price": 119.99
     }
 parameters: []
 headers:

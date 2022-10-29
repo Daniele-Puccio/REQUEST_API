@@ -1,17 +1,17 @@
-_id: req_82b27f94e47643b1b5e51e99b98cdbad
+_id: req_14ceef541fd34ce98ccf104d919f4480
 type: Request
 parentId: wrk_a62b04e0f7f44938ae7b2c5174084f3c
-modified: 1667071405959
-created: 1667046190110
-url: http://localhost:5000/store
-name: GET store
+modified: 1667073081818
+created: 1667071163811
+url: http://localhost:5000/store/b4fd8ab3bc354806835fe7b011d1ad8c
+name: GET store WITH ID
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1667046190110
+metaSortKey: -1667046190060
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
