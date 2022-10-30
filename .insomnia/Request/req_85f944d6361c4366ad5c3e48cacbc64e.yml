@@ -1,17 +1,17 @@
-_id: req_b61f1b2746bc43bc8a0d79017fc917eb
+_id: req_85f944d6361c4366ad5c3e48cacbc64e
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119035215
-created: 1667050389317
-url: http://localhost:5000/item
-name: GET item
+modified: 1667119143898
+created: 1667119141664
+url: http://localhost:5000/item/ITEM_ID
+name: Delete item
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1667050485541
+metaSortKey: -1667050485616
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

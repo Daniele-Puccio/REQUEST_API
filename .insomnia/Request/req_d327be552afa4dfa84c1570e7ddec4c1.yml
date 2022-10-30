@@ -1,17 +1,17 @@
-_id: req_b61f1b2746bc43bc8a0d79017fc917eb
+_id: req_d327be552afa4dfa84c1570e7ddec4c1
 type: Request
-parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119035215
-created: 1667050389317
-url: http://localhost:5000/item
-name: GET item
+parentId: fld_29e9eb445e8143acb4885662b22a0477
+modified: 1667119161961
+created: 1667119150362
+url: http://localhost:5000/store/STORE_ID
+name: Delete store
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1667050485541
+metaSortKey: -1667050437593
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
