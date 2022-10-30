@@ -1,9 +1,9 @@
 _id: req_14ceef541fd34ce98ccf104d919f4480
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667119043113
+modified: 1667122692569
 created: 1667071163811
-url: http://localhost:5000/store/b4fd8ab3bc354806835fe7b011d1ad8c
+url: "{{url}}/store/b4fd8ab3bc354806835fe7b011d1ad8c"
 name: GET store WITH ID
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_7037873148e540c596f437a094a69fff
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119031914
+modified: 1667122733330
 created: 1667050485491
-url: http://localhost:5000/item
+url: "{{url}}/item"
 name: POST item
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id" : "de2d9a3a9d99499fbf68ef6c84fed4e2",
+    	"store_id" : "92b2c64a66ef4eff8a7e2867ff2c28ef",
     	"name": "Table",
     	"price": 119.99
     }

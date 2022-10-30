@@ -1,9 +1,9 @@
 _id: req_d327be552afa4dfa84c1570e7ddec4c1
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667119161961
+modified: 1667122671988
 created: 1667119150362
-url: http://localhost:5000/store/STORE_ID
+url: "{{url}}/store/9f1765ae9fb34660882735e0192474a8"
 name: Delete store
 description: ""
 method: DELETE

@@ -1,9 +1,9 @@
 _id: req_27623ca4092442bc84eb99e34ec9b27f
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667119040287
+modified: 1667122738239
 created: 1667050437443
-url: http://localhost:5000/store
+url: "{{url}}/store"
 name: POST store
 description: ""
 method: POST

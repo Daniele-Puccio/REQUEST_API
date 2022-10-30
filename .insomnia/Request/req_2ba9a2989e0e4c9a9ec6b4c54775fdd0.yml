@@ -1,15 +1,22 @@
 _id: req_2ba9a2989e0e4c9a9ec6b4c54775fdd0
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667119170412
+modified: 1667122739478
 created: 1667119167778
-url: http://localhost:5000/store/STORE_ID
+url: "{{url}}/store/04e60084c835441bb31d95ffec4f917e"
 name: Update store
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name" : "New Post Store"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1667050437568
 isPrivate: false

@@ -1,15 +1,23 @@
 _id: req_d57e3757385e4dbe9a6e7176aa031790
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119107001
+modified: 1667122737257
 created: 1667119066183
-url: http://localhost:5000/item/ITEM_ID
+url: "{{url}}/item/19b63bff55b94a09af5ce00d72e4afe5"
 name: Update item
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "New Table",
+    	"price": 129.99
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1667050485641
 isPrivate: false

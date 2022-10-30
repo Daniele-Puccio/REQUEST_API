@@ -1,9 +1,9 @@
 _id: req_85f944d6361c4366ad5c3e48cacbc64e
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119143898
+modified: 1667122718327
 created: 1667119141664
-url: http://localhost:5000/item/ITEM_ID
+url: "{{url}}/item/7f98a5cda5264c0ca35ba20fdc11e6a4"
 name: Delete item
 description: ""
 method: DELETE

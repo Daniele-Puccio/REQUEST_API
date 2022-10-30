@@ -1,9 +1,9 @@
 _id: req_04e0bb7c6dd74fc5b5c683cbfc5fc35c
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667119038287
+modified: 1667122725194
 created: 1667071152253
-url: http://localhost:5000/item/a42a43578e264ed59ea7ccd14193e4ad
+url: "{{url}}/item/a42a43578e264ed59ea7ccd14193e4ad"
 name: GET item WITH ID
 description: ""
 method: GET
