@@ -1,9 +1,9 @@
 _id: req_2ba9a2989e0e4c9a9ec6b4c54775fdd0
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667122739478
+modified: 1667124871784
 created: 1667119167778
-url: "{{url}}/store/04e60084c835441bb31d95ffec4f917e"
+url: "{{url}}/store/cec7f6f4c6b1454ba2943634bebe3ec4"
 name: Update store
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name" : "New Post Store"
+    	"name" : "New Post store"
     }
 parameters: []
 headers:
