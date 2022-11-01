@@ -1,0 +1,26 @@
+_id: req_add4a95132074f2e9a9a7f5bb19a0804
+type: Request
+parentId: fld_64eb7a1d513748f1929c252af13e18aa
+modified: 1667327661556
+created: 1667327496923
+url: "{{url}}/logout"
+name: LOGOUT user
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_ba5c8879489841b8afccef91817ec28a
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNzY0NywianRpIjoiOWQzNzUwZGYtMzQ4Yi00YmVlLWIyZjctNDg0OTAxN2UwZGM4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI3NjQ3LCJleHAiOjE2NjczMjg1NDcsImlzX2FkbWluIjoiVHJ1ZSJ9.WIEikrklzh3olUax_sBAyVwviLHD_ryq0X76VRAwU9o
+    description: ""
+authentication: {}
+metaSortKey: -1667219586803.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

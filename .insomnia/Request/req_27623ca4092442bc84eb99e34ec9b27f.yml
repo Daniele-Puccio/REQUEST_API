@@ -1,7 +1,7 @@
 _id: req_27623ca4092442bc84eb99e34ec9b27f
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667325556153
+modified: 1667328568033
 created: 1667050437443
 url: "{{url}}/store"
 name: POST store
@@ -20,8 +20,7 @@ headers:
     id: pair_cd6ddbdc607c4c05b7384d077c9e5183
   - id: pair_213b2af5253646a7bd82b49e382b37b6
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050437443

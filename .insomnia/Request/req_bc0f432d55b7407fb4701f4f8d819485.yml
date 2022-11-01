@@ -1,7 +1,7 @@
 _id: req_bc0f432d55b7407fb4701f4f8d819485
 type: Request
 parentId: fld_a3d014cea1a449068df45b05a624d43e
-modified: 1667325650241
+modified: 1667328514194
 created: 1667318125252
 url: "{{url}}/item/1/tag/1"
 name: LINK tag on Item
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_1c459416b5364a7492568f0ed1ad444a
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050437618

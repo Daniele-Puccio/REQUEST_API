@@ -1,7 +1,7 @@
 _id: req_20aa91d0ed98430fa01e21374ddb6a6e
 type: Request
 parentId: fld_a3d014cea1a449068df45b05a624d43e
-modified: 1667325593735
+modified: 1667328549040
 created: 1667315206126
 url: "{{url}}/store/1/tag"
 name: GET tag
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_96bb655abc504446ba6dd6be55b2689b
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050437468

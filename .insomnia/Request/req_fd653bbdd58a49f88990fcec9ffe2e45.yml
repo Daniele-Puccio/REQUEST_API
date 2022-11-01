@@ -1,7 +1,7 @@
 _id: req_fd653bbdd58a49f88990fcec9ffe2e45
 type: Request
 parentId: fld_64eb7a1d513748f1929c252af13e18aa
-modified: 1667325677194
+modified: 1667328499534
 created: 1667321083356
 url: "{{url}}/user/2"
 name: Delete USER
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_97fc2709471d4ed480300f06d63825fa
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667118126106

@@ -1,7 +1,7 @@
 _id: req_b61f1b2746bc43bc8a0d79017fc917eb
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667325523520
+modified: 1667328584668
 created: 1667050389317
 url: "{{url}}/item"
 name: GET item
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_2c21cd5d001f491786f38435d8cae163
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050485541

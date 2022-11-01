@@ -1,7 +1,7 @@
 _id: req_ccec31253ef84b55b95e7cd05cdf6e74
 type: Request
 parentId: fld_64eb7a1d513748f1929c252af13e18aa
-modified: 1667325659926
+modified: 1667328508470
 created: 1667321074334
 url: "{{url}}/user/1"
 name: GET User
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_05f3bd72530f40d9a0339e3674b9a4f4
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667185766571

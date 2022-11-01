@@ -1,7 +1,7 @@
 _id: req_85f944d6361c4366ad5c3e48cacbc64e
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667325543954
+modified: 1667328578475
 created: 1667119141664
 url: "{{url}}/item/10"
 name: Delete item
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_da5c0c45c61d421ea2f7482180dffae4
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050485616

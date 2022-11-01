@@ -1,7 +1,7 @@
 _id: req_14ceef541fd34ce98ccf104d919f4480
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667325567213
+modified: 1667328560380
 created: 1667071163811
 url: "{{url}}/store/4"
 name: GET store WITH ID
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_50514472ec4b4fcf80369e64a6807aae
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050437543

@@ -1,7 +1,7 @@
 _id: req_d08d82e7ed0941998c73097f559ab82d
 type: Request
 parentId: fld_a3d014cea1a449068df45b05a624d43e
-modified: 1667325605001
+modified: 1667328545812
 created: 1667317660537
 url: "{{url}}/tag/1"
 name: Delete tag
@@ -12,8 +12,7 @@ parameters: []
 headers:
   - id: pair_d98a7d32400845ada4e2ab9ed90cf32c
     name: Authorization
-    value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    value: Bearer {{access_token}}
     description: ""
 authentication: {}
 metaSortKey: -1667050437518

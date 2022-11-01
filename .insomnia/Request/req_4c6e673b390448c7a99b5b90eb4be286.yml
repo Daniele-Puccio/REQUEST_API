@@ -1,7 +1,7 @@
 _id: req_4c6e673b390448c7a99b5b90eb4be286
 type: Request
 parentId: fld_64eb7a1d513748f1929c252af13e18aa
-modified: 1667323912636
+modified: 1667326775158
 created: 1667321047501
 url: "{{url}}/register"
 name: create user
@@ -11,13 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username":"daniele",
+    	"username":"daniele3",
     	"password":"daniele"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_ad638f87f41243adb5e58cc6bba5483a
 authentication: {}
 metaSortKey: -1667321047501
 isPrivate: false
