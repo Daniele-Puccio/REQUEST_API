@@ -1,24 +1,25 @@
-_id: req_2ba9a2989e0e4c9a9ec6b4c54775fdd0
+_id: req_4c6e673b390448c7a99b5b90eb4be286
 type: Request
-parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667124871784
-created: 1667119167778
-url: "{{url}}/store/cec7f6f4c6b1454ba2943634bebe3ec4"
-name: Update store
+parentId: fld_64eb7a1d513748f1929c252af13e18aa
+modified: 1667323912636
+created: 1667321047501
+url: "{{url}}/register"
+name: create user
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name" : "New Post store"
+    	"username":"daniele",
+    	"password":"daniele"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1667050437568
+metaSortKey: -1667321047501
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

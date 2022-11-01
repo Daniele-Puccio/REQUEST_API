@@ -1,22 +1,34 @@
-_id: req_04e0bb7c6dd74fc5b5c683cbfc5fc35c
+_id: req_85e2dcce962a4c2f9ad9051b83c9d081
 type: Request
-parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667325534852
-created: 1667071152253
-url: "{{url}}/item/1"
-name: GET item WITH ID
+parentId: fld_a3d014cea1a449068df45b05a624d43e
+modified: 1667325613499
+created: 1667315239224
+url: "{{url}}/store/1/tag"
+name: POST tag
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "test"
+    }
 parameters: []
 headers:
-  - id: pair_8ea1d1a84bbb4c398e826a8a9b2c0910
+  - name: Content-Type
+    value: application/json
+    id: pair_89ccd5c20832421e8f81214c0bcfe107
+  - id: pair_992d635674394938a45696baa71f606f
     name: Authorization
     value: Bearer
       eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
     description: ""
+  - id: pair_7f4534473e484aa09d21bd6b516c99c3
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1667050485591
+metaSortKey: -1667050437568
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

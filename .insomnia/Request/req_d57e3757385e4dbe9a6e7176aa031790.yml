@@ -1,9 +1,9 @@
 _id: req_d57e3757385e4dbe9a6e7176aa031790
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667124816360
+modified: 1667325551760
 created: 1667119066183
-url: "{{url}}/item/88882e12d8e44807a41a507c1943ad86"
+url: "{{url}}/item/5"
 name: Update item
 description: ""
 method: PUT
@@ -12,12 +12,19 @@ body:
   text: |-
     {
     	"name": "New Table",
-    	"price": 129.99
+    	"price": 129.99,
+    	"store_id" : "1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_f9b5e5681c364376ade74f478c74537f
+  - id: pair_c44ab2f27f78431f880055dd9fe76f28
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    description: ""
 authentication: {}
 metaSortKey: -1667050485641
 isPrivate: false

@@ -1,15 +1,20 @@
 _id: req_d327be552afa4dfa84c1570e7ddec4c1
 type: Request
 parentId: fld_29e9eb445e8143acb4885662b22a0477
-modified: 1667124881972
+modified: 1667325578013
 created: 1667119150362
-url: "{{url}}/store/cec7f6f4c6b1454ba2943634bebe3ec4"
+url: "{{url}}/store/1"
 name: Delete store
 description: ""
 method: DELETE
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_127c7c5b1d7e48499ab6c98c60084afe
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    description: ""
 authentication: {}
 metaSortKey: -1667050437593
 isPrivate: false

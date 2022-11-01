@@ -1,7 +1,7 @@
 _id: req_7037873148e540c596f437a094a69fff
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667124808866
+modified: 1667325514260
 created: 1667050485491
 url: "{{url}}/item"
 name: POST item
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"store_id" : "cec7f6f4c6b1454ba2943634bebe3ec4",
+    	"store_id" : "1",
     	"name": "Table",
     	"price": 119.99
     }
@@ -19,6 +19,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_0af2d67eb2004cee837f82fedcd47f55
+  - id: pair_6dd77edd15264187850a6d125150fcf4
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
+    description: ""
 authentication: {}
 metaSortKey: -1667050485491
 isPrivate: false

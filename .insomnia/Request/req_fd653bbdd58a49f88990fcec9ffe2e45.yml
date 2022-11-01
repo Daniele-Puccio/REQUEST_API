@@ -1,22 +1,22 @@
-_id: req_04e0bb7c6dd74fc5b5c683cbfc5fc35c
+_id: req_fd653bbdd58a49f88990fcec9ffe2e45
 type: Request
-parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667325534852
-created: 1667071152253
-url: "{{url}}/item/1"
-name: GET item WITH ID
+parentId: fld_64eb7a1d513748f1929c252af13e18aa
+modified: 1667325677194
+created: 1667321083356
+url: "{{url}}/user/2"
+name: Delete USER
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers:
-  - id: pair_8ea1d1a84bbb4c398e826a8a9b2c0910
+  - id: pair_97fc2709471d4ed480300f06d63825fa
     name: Authorization
     value: Bearer
       eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyNTQ4MCwianRpIjoiZDIyOGI0ZjYtZTBmNy00MTQ3LThiZjItZDI2NjQzN2JlZjBmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNjY3MzI1NDgwLCJleHAiOjE2NjczMjYzODB9.ndpDMYv66jsUjAf1YWY_-xMbfVK1ykzD6IMxbsjqYFA
     description: ""
 authentication: {}
-metaSortKey: -1667050485591
+metaSortKey: -1667118126106
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
