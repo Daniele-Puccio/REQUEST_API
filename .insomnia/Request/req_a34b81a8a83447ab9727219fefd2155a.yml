@@ -1,0 +1,26 @@
+_id: req_a34b81a8a83447ab9727219fefd2155a
+type: Request
+parentId: fld_64eb7a1d513748f1929c252af13e18aa
+modified: 1667329639822
+created: 1667329360889
+url: "{{url}}/refresh"
+name: REFRESH
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_d788ee56b43d4e6dbbc4d7db50cf474d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NzMyOTYyNSwianRpIjoiZDhmNzQ1Y2UtZWFmNC00MzQ4LWI1N2UtNzQ0N2E3MTk3OWZjIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOjEsIm5iZiI6MTY2NzMyOTYyNSwiZXhwIjoxNjY5OTIxNjI1LCJpc19hZG1pbiI6IlRydWUifQ.IIpa8lngfcoMvLlwGNEBvvkRpmxloQWEj_wZdwI6AvI
+    description: ""
+authentication: {}
+metaSortKey: -1667244951977.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
