@@ -1,7 +1,7 @@
 _id: req_a8378308459f46009cafd83027e1a17b
 type: Request
 parentId: fld_64eb7a1d513748f1929c252af13e18aa
-modified: 1667329391413
+modified: 1667370756001
 created: 1667328611846
 url: "{{url}}/login"
 name: LOGIN user
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username":"daniele2",
+    	"username":"daniele",
     	"password":"daniele"
     }
 parameters: []

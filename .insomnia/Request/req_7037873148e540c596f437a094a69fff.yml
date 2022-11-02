@@ -1,7 +1,7 @@
 _id: req_7037873148e540c596f437a094a69fff
 type: Request
 parentId: fld_953fb896610c4237bd21a6608093a31b
-modified: 1667328588897
+modified: 1667370811369
 created: 1667050485491
 url: "{{url}}/item"
 name: POST item
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"store_id" : "1",
-    	"name": "Table",
+    	"name": "Table2",
     	"price": 119.99
     }
 parameters: []
